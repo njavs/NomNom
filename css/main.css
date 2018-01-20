@@ -8,9 +8,14 @@ body {
 }
 
 .Title {
-    font-family: 'Julius Sans One', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px;
+    font-size: 35px;
+    padding-top: 10%;
+
 }
 
 .Subtitle {
     font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
 }
