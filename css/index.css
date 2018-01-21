@@ -103,14 +103,12 @@ main {
   overflow: auto;
   flex-wrap: wrap;
   flex-direction: row;
-  #width: 50%;
-  #height: 50%
-  flex-grow:1;
+  height: 700px;
   flex-basis: 50em;
 }
 .d23 {
   display: flex;
-  background: pink;
+  #background: pink;
   flex-grow: 1;
 }
 
@@ -120,7 +118,7 @@ main {
   display: flex;
   flex-direction: row;
   background: green;
-
+  height: 300px;
   border-style: solid;
   border-width: 2px;
   border-color: black;
@@ -133,11 +131,22 @@ main {
   #flex-grow: 2;
   flex-basis: 30em;
   margin: 15px;
-  background-image: url(thumb_600.jpg);
+  background-image: url(../thumb_600.jpg);
   background-size: 100% 100%;
   background-repeat: no-repeat;
   border-radius: 3px;
 }
+.j3 {
+  #background: purple;
+  #flex-grow: 2;
+  flex-basis: 30em;
+  margin: 15px;
+  background-image: url(../pizza.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  border-radius: 3px;
+}
+
 .j2 {
   #display: flex;
   #background: red;
