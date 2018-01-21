@@ -3,7 +3,7 @@ body {
   min-height: 100vh; /* need this line to tell body to fill viewport */
   display: flex;
   flex-direction: column;
-  background-color: #e7eff2;
+  background-color: #0ac2d2;
   color: black;
 }
 header {
@@ -81,9 +81,9 @@ main {
 .d3 {
   display: flex;
   background-color: blue;
-  flex-direction: column;
-  flex-grow: 1;
   margin: 3px;
+  height: 70px;
+  align-items: center;
 }
 .d2 {
   display: flex;
@@ -94,16 +94,17 @@ main {
 }
 .d21 {
   display: flex;
-  background: white;
+  #background: white;
   flex-grow: 1;
 }
 .d22 {
   display: flex;
-  background: orange;
+  #background: orange;
   overflow: auto;
   flex-wrap: wrap;
   flex-direction: row;
   height: 700px;
+  width: 60%;
   flex-basis: 50em;
 }
 .d23 {
@@ -117,11 +118,9 @@ main {
   width: 100%;
   display: flex;
   flex-direction: row;
-  background: green;
+  background: white;
   height: 300px;
-  border-style: solid;
-  border-width: 2px;
-  border-color: black;
+
   border-radius: 10px;
   flex-basis: 50em;
   margin-top: 19px;
@@ -155,9 +154,7 @@ main {
   margin: 15px;
   height: 90%;
   width: 100%;
-  border-style: solid;
-  border-width: 1px;
-  border-color: black;
+
   overflow: auto;
   display: inline;
   word-wrap: break-word;
