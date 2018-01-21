@@ -3,20 +3,18 @@ body {
 }
 
 .Title, .Subtitle {
+    font-family: 'Montserrat', sans-serif;
     color: white;
     text-align: center;
 }
 
 .Title {
-    font-family: 'Montserrat', sans-serif;
     letter-spacing: 2px;
     font-size: 35px;
     padding-top: 10%;
 
 }
-
 .Subtitle {
-    font-family: 'Montserrat', sans-serif;
     font-size: 30px;
 }
 
@@ -27,3 +25,58 @@ img {
 	display: block;
 	margin: 0 auto;
 }
+
+/*--------------- phones -----------------*/
+/* portrait */
+@media (min-width: 320px) and (max-height: 820px) and (orientation: portrait)
+{
+  .Title {
+    font-size: 25px;
+    padding-top:46%;
+  }
+
+  .Subtitle {
+    font-size: 20px;
+  }
+}
+
+/* landscape */
+@media (max-width: 820px) and (min-height: 350px) and (orientation: landscape)
+{
+  .Title {
+    font-size: 25px;
+  }
+
+  .Subtitle {
+    font-size: 20px;
+  }
+}
+
+
+/*--------------- tablets ---------------*/
+/* portrait */
+@media (min-width: 750px) and (max-height: 1025px) and (orientation: portrait)
+{
+  .Title {
+    font-size: 40px;
+    padding-top:35%;
+  }
+
+  .Subtitle {
+    font-size: 30px;
+  }
+}
+
+/* landscape */
+@media (max-width: 1025px) and (min-height: 750px) and (orientation: landscape)
+{
+  .Title {
+    font-size: 35px;
+    padding-top:20%;
+  }
+
+  .Subtitle {
+    font-size: 30px;
+  }
+}
+
