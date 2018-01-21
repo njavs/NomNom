@@ -62,10 +62,11 @@ main {
 }
 
 .i2 p {
-  font-size: 20px;
-  border-style: solid;
-  border-width: 1px;
-  border-color: black;
+      font-size: 30px;
+  letter-spacing: 1px;
+    font-weight: 100;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
   #border-radius: 10px;
 }
 .i3 {
@@ -120,9 +121,7 @@ main {
   flex-direction: row;
   background: white;
   height: 300px;
-
-  border-radius: 10px;
-  flex-basis: 50em;
+flex-basis: 50em;
   margin-top: 19px;
 }
 .j1 {
