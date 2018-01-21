@@ -80,7 +80,7 @@ main {
 }
 .d3 {
   display: flex;
-  background-color: blue;
+  #background-color: blue;
   margin: 3px;
   height: 70px;
   align-items: center;
@@ -154,8 +154,20 @@ main {
   margin: 15px;
   height: 90%;
   width: 100%;
-
   overflow: auto;
   display: inline;
   word-wrap: break-word;
+}
+
+.d3 img {
+  height: 100px;
+  width: 100px;
+  margin-left: 43%;
+}
+.d3 img:hover {
+  cursor: pointer;
+}
+
+.d3 input {
+  display: none;
 }
