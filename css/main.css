@@ -19,3 +19,11 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
 }
+
+img {
+    height: 60px;
+    width: 60px;
+    padding-top: 6%;
+	display: block;
+	margin: 0 auto;
+}
