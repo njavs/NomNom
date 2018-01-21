@@ -31,12 +31,12 @@ img {
 @media (min-width: 320px) and (max-height: 820px) and (orientation: portrait)
 {
   .Title {
-    font-size: 20px;
-    padding-top:40%;
+    font-size: 17px;
+    padding-top:35%;
   }
 
   .Subtitle {
-    font-size: 16px;
+    font-size: 13px;
   }
 }
 
@@ -44,11 +44,11 @@ img {
 @media (max-width: 820px) and (min-height: 350px) and (orientation: landscape)
 {
   .Title {
-    font-size: 21px;
+    font-size: 18px;
   }
 
   .Subtitle {
-    font-size: 17px;
+    font-size: 14px;
   }
 }
 
