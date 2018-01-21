@@ -118,6 +118,7 @@ main {
   height: 60%;
   width: 100%;
   display: flex;
+  border-radius: 8px;
   flex-direction: row;
   background: white;
   height: 300px;
