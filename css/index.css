@@ -1,0 +1,155 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  min-height: 100vh; /* need this line to tell body to fill viewport */
+  display: flex;
+  flex-direction: column;
+  background-color: #e7eff2;
+  color: black;
+}
+header {
+  #background: grey;
+  border-radius: 100px;
+  font-size: 30px;
+}
+main {
+  display: flex;
+  #background-color: blue;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.d1 {
+  display: flex;
+  #background-color: green;
+  flex-direction: row;
+  flex-grow: 1;
+  margin: 3px;
+}
+.d11 {
+  #background-color: white;
+  flex-grow: 1;
+  margin: 2px;
+}
+.d12 {
+  #background-color: grey;
+  flex-grow: 1;
+  margin: 2px;
+  flex-direction: column;
+  display: flex;
+}
+.d121 {
+  #background-color: blue;
+  flex-grow: 1;
+}
+.d122 {
+  #background-color: green;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: row;
+}
+.d123 {
+  #background-color: red;
+  flex-grow: 1;
+}
+.i1 {
+  flex-grow: 1;
+  #background-color: yellow;
+}
+.i2 {
+  flex-grow: 1;
+  #background-color: black;
+  text-align: center;
+}
+
+.i2 p {
+  font-size: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  #border-radius: 10px;
+}
+.i3 {
+  flex-grow: 1;
+  #background-color: grey;
+}
+
+.d13 {
+  #background-color: red;
+  flex-grow: 1;
+  margin: 2px;
+}
+.d3 {
+  display: flex;
+  background-color: blue;
+  flex-direction: column;
+  flex-grow: 1;
+  margin: 3px;
+}
+.d2 {
+  display: flex;
+  #background-color: red;
+  flex-direction: row;
+  flex-grow: 6;
+  margin-top: -20px;
+}
+.d21 {
+  display: flex;
+  background: white;
+  flex-grow: 1;
+}
+.d22 {
+  display: flex;
+  background: orange;
+  overflow: auto;
+  flex-wrap: wrap;
+  flex-direction: row;
+  #width: 50%;
+  #height: 50%
+  flex-grow:1;
+  flex-basis: 50em;
+}
+.d23 {
+  display: flex;
+  background: pink;
+  flex-grow: 1;
+}
+
+.d221 {
+  height: 60%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background: green;
+
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  border-radius: 10px;
+  flex-basis: 50em;
+  margin-top: 19px;
+}
+.j1 {
+  #background: purple;
+  #flex-grow: 2;
+  flex-basis: 30em;
+  margin: 15px;
+  background-image: url(thumb_600.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  border-radius: 3px;
+}
+.j2 {
+  #display: flex;
+  #background: red;
+  #flex-grow: 1;
+  flex-basis: 20em;
+  margin: 15px;
+  height: 90%;
+  width: 100%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  overflow: auto;
+  display: inline;
+  word-wrap: break-word;
+}
