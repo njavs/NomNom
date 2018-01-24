@@ -1,0 +1,175 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  min-height: 100vh; /* need this line to tell body to fill viewport */
+  display: flex;
+  flex-direction: column;
+  background-color: #0ac2d2;
+  color: black;
+}
+header {
+  #background: grey;
+  border-radius: 100px;
+  font-size: 30px;
+}
+main {
+  display: flex;
+  #background-color: blue;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.d1 {
+  display: flex;
+  #background-color: green;
+  flex-direction: row;
+  flex-grow: 1;
+  margin: 3px;
+}
+.d11 {
+  #background-color: white;
+  flex-grow: 1;
+  margin: 2px;
+}
+.d12 {
+  #background-color: grey;
+  flex-grow: 1;
+  margin: 2px;
+  flex-direction: column;
+  display: flex;
+}
+.d121 {
+  #background-color: blue;
+  flex-grow: 1;
+}
+.d122 {
+  #background-color: green;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: row;
+}
+.d123 {
+  #background-color: red;
+  flex-grow: 1;
+}
+.i1 {
+  flex-grow: 1;
+  #background-color: yellow;
+}
+.i2 {
+  flex-grow: 1;
+  #background-color: black;
+  text-align: center;
+}
+
+.i2 p {
+  font-size: 30px;
+  letter-spacing: 1px;
+  font-weight: 100;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  #border-radius: 10px;
+}
+.i3 {
+  flex-grow: 1;
+  #background-color: grey;
+}
+
+.d13 {
+  #background-color: red;
+  flex-grow: 1;
+  margin: 2px;
+}
+.d3 {
+  display: flex;
+  #background-color: blue;
+  margin: 3px;
+  height: 70px;
+  align-items: center;
+}
+.d2 {
+  display: flex;
+  #background-color: red;
+  flex-direction: row;
+  flex-grow: 6;
+  margin-top: -20px;
+}
+.d21 {
+  display: flex;
+  #background: white;
+  flex-grow: 1;
+}
+.d22 {
+  display: flex;
+  #background: orange;
+  overflow: auto;
+  flex-wrap: wrap;
+  flex-direction: row;
+  height: 700px;
+  width: 60%;
+  flex-basis: 50em;
+}
+.d23 {
+  display: flex;
+  #background: pink;
+  flex-grow: 1;
+}
+
+.d221 {
+  border-radius: 15px;
+  height: 60%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background: white;
+  height: 300px;
+  flex-basis: 50em;
+  margin-top: 19px;
+}
+.j1 {
+  #background: purple;
+  #flex-grow: 2;
+  flex-basis: 30em;
+  margin: 15px;
+  background-image: url(../thumb_600.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  border-radius: 3px;
+}
+.j3 {
+  #background: purple;
+  #flex-grow: 2;
+  flex-basis: 30em;
+  margin: 15px;
+  background-image: url(../pizza.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  border-radius: 3px;
+}
+
+.j2 {
+  #display: flex;
+  #background: red;
+  #flex-grow: 1;
+  flex-basis: 20em;
+  margin: 15px;
+  height: 90%;
+  width: 100%;
+  overflow: auto;
+  display: inline;
+  word-wrap: break-word;
+}
+
+.d3 img {
+  height: 100px;
+  width: 100px;
+  margin-left: 43%;
+}
+.d3 img:hover {
+  cursor: pointer;
+}
+
+.d3 input {
+  display: none;
+}
